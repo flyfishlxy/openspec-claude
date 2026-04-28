@@ -80,18 +80,3 @@ curl http://localhost:8080/api/users/1
 6. 评审确认后实施代码
 7. 更新任务状态并执行测试
 8. 完成后归档 change
-
-## 推送到 GitHub
-
-如果本地还没有初始化 Git，可以执行：
-
-```bash
-git init
-git add .
-git commit -m "chore: initialize repository"
-git branch -M main
-git remote add origin <your-github-repo-url>
-git push -u origin main
-```
-
-如果你要新建 GitHub 仓库，仓库名建议与项目名保持一致：`openspec-claude`。
